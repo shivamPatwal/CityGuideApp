@@ -14,7 +14,7 @@ SMART CITY/CITY GUIDE
  
 
 
-City Guide is an android smart city traveler application that can store the details of a particular place and help all the users who wanted to visit that place. This app also helps you to find places nearby you or around the world. After searching a place, the map will show the details such as name, area, location, phone no. and kilometers from the current location of the user.
+Smart City is an android smart city traveler application that can store the details of a particular place and help all the users who wanted to visit that place. This app also helps you to find places nearby you or around the world. After searching a place, the map will show the details such as name, area, location, phone no. and kilometers from the current location of the user.
 
 <h3 >
 
