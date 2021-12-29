@@ -8,7 +8,7 @@ SMART CITY/CITY GUIDE
   
 <p align="center"
  
-  Download the APK from [here](https://github.com/shivamPatwal/Vaccinate-ME/blob/master/Vaccinate-Me.apk)
+  Download the APK from [here](https://github.com/shivamPatwal/SmartCity/blob/main/app-debug.apk)
 
   </p>
  
