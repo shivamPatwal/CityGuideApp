@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myMap"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity" />
+
+
+    <Button
+        android:id="@+id/myloc"
+        android:layout_width="30dp"
+
+        android:layout_height="40dp"
+        android:gravity="bottom"
+        android:layout_alignBottom="@id/myMap"
+        android:layout_alignEnd="@id/myMap"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="30sp"
+
+        android:background="@drawable/myloc"
+         />
+
+
+</RelativeLayout>

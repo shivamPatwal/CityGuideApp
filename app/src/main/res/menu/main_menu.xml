@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/categeories"
+            android:title="Category" />
+        <item
+            android:id="@+id/nav_Location"
+            android:icon="@drawable/location"
+            android:title="Current Location" />
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@drawable/save"
+            android:title="Saved Location" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="MAP" />
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/profile"
+                    android:id="@+id/nav_profile"
+                    android:title="Profile" />
+                <item  android:icon="@drawable/logout"
+                    android:id="@+id/nav_logout"
+                    android:title="Log Out" />
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/info"
+                    android:title="About" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

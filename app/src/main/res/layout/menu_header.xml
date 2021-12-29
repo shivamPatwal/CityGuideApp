@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="@color/colorPrimary"
+
+    android:gravity="bottom"
+    android:orientation="vertical"
+
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:focusable="true"
+      android:src="@drawable/p"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/round_border"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+         android:adjustViewBounds="true"
+        app:shapeAppearanceOverlay="@style/RoundImageView"
+        android:paddingTop="16dp"
+        app:srcCompat="@drawable/facebook" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_header_name"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="Shivam Patwal"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+ />
+</LinearLayout>
+
